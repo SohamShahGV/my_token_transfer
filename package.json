@@ -1,0 +1,19 @@
+{
+  "name": "metamask",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "sohamgv",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^1.0.1",
+    "hardhat": "^2.10.0"
+  },
+  "dependencies": {
+    "web3": "^1.7.4",
+    "web3-eth": "^1.7.4"
+  }
+}

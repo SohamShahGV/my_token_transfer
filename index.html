@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!-- spy coach sudden awesome debris flavor small lion crop test captain fitness -->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ethers/5.6.2/ethers.umd.min.js" integrity="sha512-VLIBlhfqpqbMD6ZAPx7uzfF9/WEfVBgbcIfw5i/9k3smQlVupb1yq2WFChUcefVCBdkGrDHywOfnlMAKmK5QZQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+	
+    <p><b>METAMASK</b></p>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/MetaMask_Fox.svg/1200px-MetaMask_Fox.svg.png" width= "50px"alt="">
+    <br>
+    <button type="button" onclick="connectMetamask()" id="submit"> Connect </button>
+    <br><br> 
+    <label for="connected_address">Connected Address: </label>
+    <h5 id="connected_address"></h5>
+    <br>
+    <h5 id="balance"></h5>
+    <br>
+    <label for="receiver" id="rec">Receiver's wallet: </label>
+    <input type="text" value="" id="receiver" required />
+    <br>
+    <br>
+    <label for="amount" id="amt">Amount to be transfered: </label>
+    <input type="number" value="" id="amount" required />
+    <br>
+    <button type="button" onclick="sendit()" id="sendit">Send It</button>
+    <h5 id="notify"></h5>
+        <script src="app.js"></script>
+    <br />
+    <br />
+</body>
+</html>
